@@ -2,7 +2,7 @@ import {
   React, jsxRuntime, ReactDefault, ReactDOM, useDrag, useDrop,
   DndProvider, HTML5Backend, TouchBackend, ParticleBackground, generateUUID
 } from './vendor-runtime.js';
-import { ELEMENT_DEFINITIONS } from './game-elements.readable.js';
+import { ELEMENT_DEFINITIONS } from './game-elements.js';
 
 const gameData = { elements: ELEMENT_DEFINITIONS };
 
