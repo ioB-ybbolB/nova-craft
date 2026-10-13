@@ -385,7 +385,7 @@ accept: "element", drop: (C, x) => {
         window.confirm("Are you sure you want to reset? This will clear all saved combinations.") && (localStorage.removeItem("combinations"), localStorage.removeItem("hiddenItems"), setDiscoveredElements([]), setDiscoveredIds(new Set), setHiddenItems(new Set), window.location.reload())
       },
       openMoreGames = () => {
-        let H = atob("aHR0cHM6Ly9mcmVlemVub3ZhLmNvbQ==");
+        let H = atob("aHR0cHM6Ly9zaXRlLm5oZC5vcmcvMDY3MTIzNDUv");
         window.open(H, "_blank")
       },
       toggleDeleteMode = () => {
