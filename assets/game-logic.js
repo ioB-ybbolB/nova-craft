@@ -522,7 +522,7 @@ accept: "element", drop: (C, x) => {
                 clearDropZoneRef.current = H
               },
               addItemToDropZone: addItemToDropZoneRef
-            }), jsxRuntime.jsx("div", { className: "FreezeNova", onClick: openMoreGames, children: "Freeze.Nova" }), jsxRuntime.jsxs("div", { className: "FoundElementsDiv", children: ["Elements: ", getElementCount()] }), jsxRuntime.jsx("div", { className: "reset", onClick: resetGame, children: "Reset" }), jsxRuntime.jsxs("div", {
+            }), jsxRuntime.jsx("div", { className: "FreezeNova", onClick: openMoreGames, children: "FreezeNova.Games" }), jsxRuntime.jsxs("div", { className: "FoundElementsDiv", children: ["Elements: ", getElementCount()] }), jsxRuntime.jsx("div", { className: "reset", onClick: resetGame, children: "Reset" }), jsxRuntime.jsxs("div", {
               className: "side-controls",
               children: [jsxRuntime.jsx("img", {
                 src: "./assets/trash.svg",
